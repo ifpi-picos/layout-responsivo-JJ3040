@@ -29,3 +29,7 @@ main div{
   background-color: rgb(255, 165, 0);
   height: 100%;
 }
+
+.dobro{
+  flex-grow: 2;
+}
