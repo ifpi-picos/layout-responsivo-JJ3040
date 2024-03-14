@@ -23,6 +23,8 @@ main{
   display: flex;
   gap: 10px;
   padding: 10px 0;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 main div{
   flex-grow: 1;
@@ -32,4 +34,18 @@ main div{
 
 .dobro{
   flex-grow: 2;
+}
+@media (max-width: 768px){
+  main{
+    height: auto;
+  }
+  main div{
+    width: 45%;
+    height: 100vh;
+  }
+}
+@media (max-width: 576px){
+  main div{
+    width: 98%;
+  }
 }
